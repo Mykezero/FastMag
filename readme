@@ -1,38 +1,25 @@
-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-FastMag - Automatic ammo equiper for Ashita V2    
-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-    Command: 
-        Ammo
-    Usage: 
-        /fastmag ammo "Iron Arrow"
-    Description: 
-        Sets the ammo to equip when empty.
-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-    Command: 
-        Pouch
-    Usage: 
-        /fastmag pouch "Iron Arrow Quiver"
-    Description: 
-        Sets the pouch or quiver to use when out of ammo. 
-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-    Command: 
-        AutoStart
-    Usage: 
-        /fastmag autostart
-    Description: 
-        Toggles whether auto equipping should start on load. 
-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-    Command: 
-        Start 
-    Usage: 
-        /fastmag start
-    Description
-        Starts the addon
-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
-    Command: 
-        Stop
-    Usage: 
-        /fastmag stop
-    Description
-        Stops the addon
-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+# FastMag - Automatic ammo equiper for Ashita V2
+This addon re-equips the player's ammo when they have run out. It should use 
+quivers when the player has run out of ammo in their inventory. FastMag can also
+be configured to start auto-equipping ammo on addon load.
+
+## Commands
+Command: Ammo
+Usage: /fastmag ammo "Iron Arrow"
+Description: Sets the ammo to equip when empty.
+    
+Command: Pouch
+Usage: /fastmag pouch "Iron Arrow Quiver"
+Description: Sets the pouch or quiver to use when out of ammo. 
+    
+Command: Auto
+Usage: /fastmag autostart
+Description: Toggles whether auto equipping should start on load. 
+
+Command: Start 
+Usage: /fastmag start
+Description: Starts the addon
+
+Command: Stop
+Usage: /fastmag stop
+Description: Stops the addon

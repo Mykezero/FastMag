@@ -13,7 +13,7 @@ Usage: /fastmag pouch "Iron Arrow Quiver"
 Description: Sets the pouch or quiver to use when out of ammo. 
     
 Command: Auto
-Usage: /fastmag autostart
+Usage: /fastmag auto
 Description: Toggles whether auto equipping should start on load. 
 
 Command: Start 

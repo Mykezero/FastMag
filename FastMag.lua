@@ -6,7 +6,7 @@
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    Ashita is distributed in the hope that it will be useful,
+    FastMag is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
@@ -42,11 +42,6 @@ local FastMag =
 -- func: load
 -- desc: First called when our addon is loaded.
 ---------------------------------------------------------------------------------------------------
-ashita.register_event('load', function()
-    -- timestamp_config = settings:load(_addon.path .. 'settings/timestamp.json') or default_config;
-    -- timestamp_config = table.merge(default_config, timestamp_config);
-end)
-
 ashita.register_event('command', function(cmd, nType)
     local args = cmd:GetArgs()
     local arg_info = PowerArgs(args)
